@@ -12,7 +12,8 @@ slope. However, it can be assumed (based on the strong correlation between varia
 that the slope of the regression would not be considered near zero. </br>
 
 3. **Does this linear model predict MPG of MechaCar prototypes effectively? Why or why not?**</br></br>
-
+Based on summary statistics (α=0.05, p=5.35e-11), it can be assumed that this model effectively predicts Mecha MPG. 
+Still, further investigation should be done on a larger sample size to ensure that this model is scalable and replicable at a larger degree.
 
 ![Deliverable 1 Summary Stats](Resources/del1.2.png)
 
