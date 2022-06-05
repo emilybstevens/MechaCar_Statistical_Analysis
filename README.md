@@ -2,10 +2,10 @@
 
 ## Linear Regression to Predict MPG
 
-1. which variables/coefficients provided a non-random amount of variance to the mpg values in the data set?</br> 
-The variables with the greatest impact on variance in this analysis are ground clearance, vehicle length, and the intercept. </br> 
+1. **Which variables/coefficients provided a non-random amount of variance to the mpg values in the data set?**</br> 
+The variables with the greatest impact on variance in this analysis are ground clearance, vehicle length, and the intercept.</br> 
 
-2. Is the slope of the linear model considered to be near zero? Why or why not? </br>
+2. **Is the slope of the linear model considered to be near zero? Why or why not?**</br>
 Without an actual visualization or a slope analysis on this multi-variable regression, 
 it's impossible to say for certain that this linear regression would have a non-zero 
 slope. However, it can be assumed (based on the strong correlation between variables and their impact on variance)
