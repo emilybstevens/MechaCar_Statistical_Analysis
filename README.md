@@ -31,7 +31,18 @@ Lot 3 should be retested for verification purposes, and if necessary, adjustment
 ![Lot Summary Stats](Resources/del2.2.png)
 
 ## T-Tests on Suspension Coils
-- briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+T-test analysis on the three lots showed the following: 
+- Lot 1's mean is similar to the total mean. (p = 1) 
+- Lot 2's mean is similar to the total mean. (p = 0.61)
+- Lot 3's mean is different from the total mean to a statistically significant degree. (p = 0.04)</br> 
+This analysis further confirms the variance findings regarding lot PSI. 
+
+#### Lot 1
+![Lot 1 TTest](Resources/del3.1.png)
+#### Lot 2
+![Lot 2 TTest](Resources/del3.2.png)
+#### Lot 3
+![Lot 3 TTest](Resources/del3.3.png)
 
 ## Del 4
 The statistical study design has the following:
