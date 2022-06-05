@@ -34,7 +34,7 @@ Lot 3 should be retested for verification purposes, and if necessary, adjustment
 T-test analysis on the three lots showed the following: 
 - Lot 1's mean is similar to the total mean. (p = 1) 
 - Lot 2's mean is similar to the total mean. (p = 0.61)
-- Lot 3's mean is different from the total mean to a statistically significant degree. (p = 0.04)</br> 
+- Lot 3's mean is different from the total mean to a statistically significant degree. (p = 0.04)</br></br>
 This analysis further confirms the variance findings regarding lot PSI. 
 
 #### Lot 1
@@ -44,9 +44,25 @@ This analysis further confirms the variance findings regarding lot PSI.
 #### Lot 3
 ![Lot 3 TTest](Resources/del3.3.png)
 
-## Del 4
-The statistical study design has the following:
-A metric to be tested is mentioned (5 pt)
-A null hypothesis or an alternative hypothesis is described (5 pt)
-A statistical test is described to test the hypothesis (5 pt)
-The data for the statistical test is described (5 pt)
+## Study Design: MechaCar vs Competition
+
+**Metrics to be tested:**</br> 
+Reliability over time</br> 
+
+**Question:**</br>  
+Can we determine the reliability of a vehicle based on how many cars remain in use/on the road ten years after initial purchase, 
+based on the number of vehicles actively registered, and is there a difference between MechaCar's reliability rate as compared 
+to their competitors? </br> 
+
+**Alternative/Null Hypotheses**</br> 
+**Hα:** There is a statistically significant different in the number of MechaCars on the road ten years after purchase as compared to 
+competitors. </br> 
+**H0:** There is no difference between the number of MechaCars remaining and Competitor cars remaining after ten years. </br> 
+
+**Statistical Test:**</br> 
+Multi-sample t-testing, measuring the timelines of various manufacturer's car. This data will be sorted in an ordinal manner to 
+determine which manufacturer produces the most long-term reliable vehicles. </br> 
+
+**Data for Testing**</br> 
+Access to active car registration data OR a survey with a large sample size measuring the length of time vehicles remain in use after purchase. 
+Either data set should include the make/model of the vehicle, the initial year it was purchased, whether it is currently on the road, and (if possible) whether the owner intends to replace it within the following year. 
